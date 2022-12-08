@@ -39,10 +39,10 @@ float(terceiraselecao.get()), float(quartaselecao.get())))
 #variaveis
 
 grupo = StringVar()                                                    
-Primeira Selecao = StringVar()
-Segunda Selecao = StringVar()
-Terceira Selecao = StringVar()
-Quarta Selecao = StringVar()
+Primeira selecao = StringVar()
+Segunda selecao = StringVar()
+Terceira selecao = StringVar()
+Quarta selecao = StringVar()
 
 #frame
 
@@ -61,7 +61,7 @@ Buttons.pack(side=BOTTOM)
 
 #labels
 
-txt_titulo = Label(topo, width=600, font=("arial", 18), text = "jogos da Copa", background=cor1)
+txt_titulo = Label(topo, width=600, font=("arial", 18), text = "jogos da copa", background=cor1)
 txt_titulo.pack()
 
 txt_listar seleçao = Label(Forms, text="Listar seleçao", font=("arial", 10), bd=15, background=cor1)
